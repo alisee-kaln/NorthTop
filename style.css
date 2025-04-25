@@ -17,6 +17,7 @@ a{
   font-size: 20px;
 }
 
+
 #navlogo{
   padding: 0px;
 }
@@ -36,6 +37,19 @@ h2{
   color: rgb(10, 23, 30);
 }
 
+#hid{
+  visibility: hidden;
+}
+
+.header{
+  width: 100%;
+  text-align: right;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 div.Header {
   width: 100%;
   text-align: right;
@@ -51,10 +65,13 @@ div.Header {
 
 #parmumsh1{
   padding-bottom: 60px;
+  font-size: 45px;
 }
 
 #apmlv{
   padding-top: 50px;
+  font-size: 40px;
+  letter-spacing: 3px;
 }
 
 #isumat1{
@@ -81,12 +98,28 @@ div.Header {
 
 .apm{
   font-size: 30px;
-  padding: 15px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  border-radius: 20px;
   background-color: rgb(129, 195, 215);
+  width: 210px;
+  height: 60px;
+  border-style: solid;
+  border-color:  rgb(200, 227, 233);
+  border-width: 5px;
 }
 
-#northtop {
-float:  
+.apm1{
+  font-size: 30px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  border-radius: 20px;
+  background-color: rgb(200, 227, 233);
+  width: 210px;
+  height: 60px;
+  border-style: solid;
+  border-color:  rgb(129, 195, 215);
+  border-width: 5px;
 }
 
 #logo {
@@ -107,6 +140,7 @@ float:
   text-align: center;
   background-color:#C8E3E9;
   padding-top: 30px;
+  letter-spacing: 4px;
 }
   
   .teksts{
@@ -205,11 +239,11 @@ padding-bottom: 30px;
 }
 
 #nometnes{
-  
   width: 100%;
   float: right;
   text-align: center;
   padding-top: 30px;
+  letter-spacing: 4px;
 }
 
  #valstis{
@@ -243,21 +277,75 @@ padding-bottom: 30px;
   padding-bottom: 20px;
 }
 
+
+
+
+.vclass{
+  font-size: 30px;
+  color: #C8E3E9;
+}
+
+.apraksts-container{
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgb(62, 111, 139);
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: space-evenly;
+}
+
+.apraksts{
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  
+}
+
+.nom{
+  
+}
+
+.nombild{
+
+  
+}
+
+#uzzvair{
+  background-color: rgb(62, 111, 139);
+  color: #81C3D7;
+  padding-top: 30px;
+  padding-bottom: 100px ;  
+  font-size: 32px;
+  text-align: center;
+}
+
+#ftrNT{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+footer{
+  text-align: center;
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-#image-gallery {
-  width: 35rem;
-  margin: 4rem auto;
-}
-
 #main-image {
   width: 100%;
   padding: 1rem;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+}
+
+#image-gallery {
+  width: 35rem;
+  margin: 4rem auto;
 }
 
 #thumbnail-contaner {
